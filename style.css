@@ -6,32 +6,38 @@
 }
 .grid{ display: flex; 
     flex-wrap: wrap;
-     font-family: sans-serif; }
+     }
 
 .origami{
     background-color: #ffcda3;
     border-radius: 20px;
-    width:310px;
+    width:280px;
+    padding: 30px;
+    margin:25px;
     font-family: fantasy;
+   
     
 }
 
 .menu{
     display:flex;
     justify-content: space-between;
-    font-size: 19px;
+    font-size: 20px;
     font-family:sans-serif;
-    font-weight: 900;
+    font-weight:800;
     background-color: #36c7b4;
+    padding:9px;
     color: black;
   
 }
 
 body{
     background-color: #a1e0cb;
+ margin: 9px;
 }
 p,h2{
     text-align: center;
+    
 }
 .bodying,p{
     text-decoration-line: underline;
